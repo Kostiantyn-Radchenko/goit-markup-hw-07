@@ -209,7 +209,7 @@ body {
 
 /* work section */
 .our-works__list {
-  display: flex;
+  display: inline-flex;
   margin-left: -30px;
 }
 .our-works__item {
@@ -218,6 +218,17 @@ body {
 }
 
 /* teams section */
+.teams-card__list {
+  display: inline-flex;
+  margin-left: -30px;
+}
+.teams-card__item {
+  flex-basis: calc((100%-120px) / 4);
+  margin-left: 30px;
+}
+.teams-card__content {
+  text-align: center;
+}
 .teams-card__name {
   font-weight: 500;
   font-size: 16px;
