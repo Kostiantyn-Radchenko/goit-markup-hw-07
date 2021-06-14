@@ -99,7 +99,7 @@
         </div>
       </section>
       <!-- our works section -->
-      <section class="section our-works">
+      <section class="section our-works not-top-padding">
         <div class="container">
           <h2 class="our-works__title">Чем мы занимаемся</h2>
           <ul class="our-works__list">
@@ -149,8 +149,10 @@
                 alt="foto developer"
                 width="270"
               />
-              <h3 class="teams-card__name">Ольга Репина</h3>
-              <p class="teams-card__proffesion">Frontend Developer</p>
+              <div class="teams-card__content">
+                <h3 class="teams-card__name">Ольга Репина</h3>
+                <p class="teams-card__proffesion">Frontend Developer</p>
+              </div>
             </li>
             <li class="teams-card__item">
               <img
@@ -158,8 +160,10 @@
                 alt="foto marketing"
                 width="270"
               />
-              <h3 class="teams-card__name">Николай Тарасов</h3>
-              <p class="teams-card__proffesion">Marketing</p>
+              <div class="teams-card__content">
+                <h3 class="teams-card__name">Николай Тарасов</h3>
+                <p class="teams-card__proffesion">Marketing</p>
+              </div>
             </li>
             <li class="teams-card__item">
               <img
@@ -167,8 +171,10 @@
                 alt="foto UI-designer"
                 width="270"
               />
-              <h3 class="teams-card__name">Михаил Ермаков</h3>
-              <p class="teams-card__proffesion">UI Designer</p>
+              <div class="teams-card__content">
+                <h3 class="teams-card__name">Михаил Ермаков</h3>
+                <p class="teams-card__proffesion">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -177,11 +183,13 @@
     <!-- footer section -->
     <footer class="footer">
       <div class="container">
-        <a href="./" class="logo"
+        <a href="./" class="logo footer-logo"
           >Web<span class="footer__logo-secondary">Studio</span></a
         >
         <address class="footer-contacts">
-          г. Киев, пр-т Леси Украинки, 26
+          <p class="footer-contacts__address">
+            г. Киев, пр-т Леси Украинки, 26
+          </p>
           <ul class="footer-contacts__list">
             <li class="footer-contacts__item">
               <a href="" class="footer-contacts__link">info@example.com</a>
