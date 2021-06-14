@@ -209,7 +209,7 @@ body {
 
 /* work section */
 .our-works__list {
-  display: inline-flex;
+  display: flex;
   margin-left: -30px;
 }
 .our-works__item {
