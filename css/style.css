@@ -1,0 +1,280 @@
+/* 
+--active-color:#2196f3;
+--title-color:#212121;
+--primary-color:#757575;
+--lite-color:#ffffff;
+--footer-contacts-color:rgba(255, 255, 255, 0.6);
+--footer-hero-bkg-color:#2F303A;
+--portofolio-btn-bkg-color: #f5f4fa;
+--dark-color:#000000;
+
+
+font-family: 'Raleway',   sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* tag configuration */
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.button {
+  cursor: pointer;
+}
+:root {
+  --active-color: #2196f3;
+  --title-color: #212121;
+  --primary-color: #757575;
+  --lite-color: #ffffff;
+  --dark-color: #000000;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer-hero-bkg-color: #2f303a;
+  --portofolio-btn-bkg-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* header section */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* logo section */
+.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.193;
+  color: var(--active-color);
+}
+.site-nav__logo-secondary {
+  color: var(--dark-color);
+}
+
+/* site-nav section */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav__list {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* header contacts */
+.contacts {
+  display: flex;
+}
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+.site-nav__link:hover,
+.site-nav__link:focus,
+.contacts__link:hover,
+.contacts__link:focus {
+  color: var(--active-color);
+}
+
+/* main section */
+/* title style */
+.teams-card__title,
+.our-works__title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--title-color);
+}
+/* hero section */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-color: var(--footer-hero-bkg-color);
+}
+
+.hero__title {
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lite-color);
+}
+/* hero button */
+.hero__button {
+  border-color: transparent;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--lite-color);
+  background-color: var(--active-color);
+}
+
+/* soft skills section */
+.soft-skills__list {
+  display: flex;
+  margin-left: -30px;
+}
+.soft-skills__item {
+  flex-basis: calc((100% - 90px) / 4);
+  margin-left: 30px;
+}
+.soft-skills__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+/* work section */
+.our-works__list {
+  display: flex;
+  margin-left: -30px;
+}
+.our-works__item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
+}
+
+/* teams section */
+.teams-card__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  color: var(--title-color);
+}
+.teams-card__proffesion {
+  font-size: 16px;
+  line-height: 1.188;
+}
+/* footer section */
+.footer {
+  background-color: var(--footer-hero-bkg-color);
+}
+/* footer logo */
+.footer__logo-secondary {
+  color: var(--lite-color);
+}
+/* footer contacts */
+.footer-contacts {
+  font-style: normal;
+  color: var(--lite-color);
+}
+.footer-contacts__link {
+  color: var(--footer-contacts-color);
+}
+.footer-contacts__link:hover,
+.footer-contacts__link:focus {
+  color: var(--active-color);
+}
+
+/* portofolio section */
+/* portofolio button */
+.portofolio-filters__button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--lite-color);
+  border-color: transparent;
+}
+.portofolio-filters__button:hover,
+.portofolio-filters__button:focus {
+  color: var(--lite-color);
+  background-color: var(--active-color);
+}
+.card-list__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.card-list__text {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--primary-color);
+}
