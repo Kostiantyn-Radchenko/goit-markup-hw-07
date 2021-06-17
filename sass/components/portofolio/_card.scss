@@ -27,7 +27,7 @@
 
   padding: 63px 24px;
 
-  font-size: 18px;
+  font-size: $size-18;
   line-height: 1.556;
   color: $liteColor;
   background-color: $activeColor;
@@ -45,14 +45,14 @@
 .card-list__title {
   margin-bottom: 4px;
 
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: $fontsNormal;
+  $size-18: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: $titleColor;
 }
 .card-list__text {
-  font-size: 16px;
+  font-size: $size-16;
   line-height: 1.875;
   color: $primaryColor;
 }

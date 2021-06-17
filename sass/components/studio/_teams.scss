@@ -16,14 +16,14 @@
 .teams-card__name {
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: $fontsLight;
+  font-size: $size-16;
   line-height: 1.188;
   color: $titleColor;
 }
 .teams-card__proffesion {
   margin-bottom: 16px;
-  font-size: 16px;
+  font-size: $size-16;
   line-height: 1.188;
 }
 

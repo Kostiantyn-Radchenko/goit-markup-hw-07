@@ -9,7 +9,7 @@
 .footer-subscription__text {
   margin-bottom: 20px;
 
-  font-weight: 700;
+  font-weight: $fontsNormal;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -21,7 +21,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   margin-right: 12px;
-  font-size: 16px;
+  font-size: $size-16;
   line-height: 1.25;
   color: $footerInputColor;
   background-color: $footerBkgColor;
@@ -34,7 +34,7 @@
   }
 
   &::placeholder {
-    font-size: 16px;
+    font-size: $size-16;
     line-height: 1.25;
     color: $footerInputColor;
   }
@@ -47,9 +47,9 @@
   padding: 10px 28px;
 
   display: flex;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  font-family: $fontRoboto;
+  font-weight: $fontsNormal;
+  font-size: $size-16;
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: $liteColor;

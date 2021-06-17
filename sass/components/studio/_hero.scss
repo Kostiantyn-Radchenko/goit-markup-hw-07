@@ -18,8 +18,8 @@
   margin-right: auto;
   margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
+  font-weight: $fontsHight;
+  font-size: $size-44;
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -31,9 +31,9 @@
   border-radius: $borderRadiusAccent;
   border-color: transparent;
 
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  font-family: $fontRoboto;
+  font-weight: $fontsNormal;
+  font-size: $size-16;
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: $liteColor;

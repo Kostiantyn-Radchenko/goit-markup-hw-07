@@ -69,3 +69,18 @@
   height: 18px;
   fill: currentColor;
 }
+// fonts style
+@mixin accentFonts {
+  font-family: $fontRoboto;
+  font-weight: $fontsBase;
+  font-size: $size-14;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
+}
+
+@mixin logoFonts {
+  font-family: $fontRaleway;
+  font-weight: $fontsNormal;
+  font-size: $size-26;
+  line-height: 1.193;
+}

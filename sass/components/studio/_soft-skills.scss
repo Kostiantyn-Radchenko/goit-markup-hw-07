@@ -21,9 +21,9 @@
 }
 .soft-skills__title {
   margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: $fontsNormal;
+  font-size: $size-14;
   line-height: 1.143;
   text-transform: uppercase;
-  color: var($titleColor);
+  color: $titleColor;
 }

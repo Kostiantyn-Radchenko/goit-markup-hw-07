@@ -20,11 +20,7 @@ svg {
   height: auto;
 }
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.715;
-  letter-spacing: 0.03em;
+  @include accentFonts;
   color: $primaryColor;
 }
 .container {
@@ -45,8 +41,8 @@ body {
   text-align: center;
   margin-bottom: 50px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
+  font-weight: $fontsNormal;
+  font-size: $size-36;
+  line-height: 1.167;
   color: $titleColor;
 }
