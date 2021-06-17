@@ -32,15 +32,13 @@
   color: $liteColor;
   background-color: $activeColor;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(101%);
+  transform: translateY(100%);
 }
 .card-list__content {
   padding: 20px 24px;
   text-align: start;
   background-color: $liteColor;
-  border-bottom: borderSolid(1, $cardPortofolioBorderColor);
-  border-left: borderSolid(1, $cardPortofolioBorderColor);
-  border-right: borderSolid(1, $cardPortofolioBorderColor);
+  @include borderCardPortfolio;
 }
 .card-list__title {
   margin-bottom: 4px;

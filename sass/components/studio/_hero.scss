@@ -36,4 +36,8 @@
   letter-spacing: 0.06em;
   color: $liteColor;
   background-color: $activeColor;
+
+  &:hover {
+    background-color: $buttonHoverHero;
+  }
 }

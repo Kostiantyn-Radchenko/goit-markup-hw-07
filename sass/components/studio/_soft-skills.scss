@@ -13,7 +13,7 @@
   @include flexCenterCenter;
   width: 270px;
   height: 120px;
-  background-color: var($litegreyBkgColor);
+  background-color: $litegreyBkgColor;
 }
 .soft-skills__icon {
   width: 70px;

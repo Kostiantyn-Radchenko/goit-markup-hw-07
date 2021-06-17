@@ -10,9 +10,14 @@
 @mixin borderSolid($border-size, $color) {
   border: #{$border-size * 1px} solid $color;
 }
-//border header
-@mixin borderHeader($color) {
+//border
+@mixin borderBottom($color) {
   border-bottom: 1px solid $color;
+}
+@mixin borderCardPortfolio($color) {
+  border-right: 1px solid $color;
+  border-bottom: 1px solid $color;
+  border-left: 1px solid $color;
 }
 
 // flex mixims
