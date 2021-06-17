@@ -1,0 +1,41 @@
+.hero {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+
+  background-color: $heroBkgColor;
+  background-image: linear-gradient($heroOverlay, $heroOverlay),
+    url('../images/teams.jpg');
+  background-size: contain;
+}
+
+.hero__title {
+  width: 698px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $liteColor;
+}
+.hero__button {
+  min-width: 200px;
+  padding: 10px 0;
+  border-radius: $borderRadiusAccent;
+  border-color: transparent;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: $liteColor;
+  background-color: $activeColor;
+}
