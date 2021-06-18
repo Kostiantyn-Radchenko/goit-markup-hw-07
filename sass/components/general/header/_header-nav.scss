@@ -32,7 +32,7 @@
   color: $titleColor;
 
   &:hover,
-  :focus {
+  &:focus {
     color: $activeColor;
   }
 }

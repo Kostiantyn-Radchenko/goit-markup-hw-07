@@ -1,9 +1,13 @@
+.teams-card {
+  background-color: $litegreyBkgColor;
+}
+
 .teams-card__list {
   display: flex;
   margin-left: -30px;
 }
 .teams-card__item {
-  background-color: var(--lite-color);
+  background-color: $liteColor;
   box-shadow: $cardShadow;
   border-radius: $cardBorderRadius;
   flex-basis: calc((100%-120px) / 4);
