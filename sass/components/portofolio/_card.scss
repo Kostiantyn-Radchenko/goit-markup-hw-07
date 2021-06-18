@@ -13,7 +13,6 @@
   &:hover .card-list__overlay {
     box-shadow: $cardBoxShadow;
     transform: translateY(0);
-    opacity: 1;
   }
 }
 
@@ -27,7 +26,7 @@
   left: 0;
   height: 100%;
   padding: 63px 24px;
-  opacity: 0;
+
   font-size: $size-18;
   line-height: 1.556;
   color: $liteColor;
