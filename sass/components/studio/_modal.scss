@@ -79,9 +79,7 @@
   color: $primaryColor;
 }
 .backdrop-form__input {
-  padding-left: 42px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding: 11px 12px 11px 42px;
   @include borderSolid(1, $inputBorderColor);
   border-radius: $borderRadiusAccent;
 }
